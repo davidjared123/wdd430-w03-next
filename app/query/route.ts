@@ -1,6 +1,6 @@
-// import postgres from 'postgres';
+// import { getSql } from '../lib/db';
 
-// const sql = postgres(process.env.POSTGRES_URL!, { ssl: 'require' });
+// const sql = getSql();
 
 // async function listInvoices() {
 // 	const data = await sql`
